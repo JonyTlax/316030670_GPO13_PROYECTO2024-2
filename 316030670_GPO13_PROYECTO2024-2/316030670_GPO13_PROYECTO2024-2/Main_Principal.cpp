@@ -188,6 +188,9 @@ int main()
 	Model Palmera((char*)"Models/4_Palmera/palmeras.obj");
 	Model SmartTv((char*)"Models/5_SmartTv/smartvs.obj");
 	Model Comedor((char*)"Models/6_Silla/comedor.obj");
+	Model Comedor2((char*)"Models/6_Silla/comedor2.obj");
+	Model Comedor3((char*)"Models/6_Silla/comedor3.obj");
+	Model Comedor4((char*)"Models/6_Silla/comedor4.obj");
 	Model Ride((char*)"Models/7_Bateria/1_ride.obj");
 	Model Hithat((char*)"Models/7_Bateria/2_hithat.obj");
 	Model Banquillo((char*)"Models/7_Bateria/4_banco.obj");
@@ -579,6 +582,9 @@ int main()
 		Palmera.Draw(lightingShader);
 		SmartTv.Draw(lightingShader);
 		Comedor.Draw(lightingShader);
+		Comedor2.Draw(lightingShader);
+		Comedor3.Draw(lightingShader);
+		Comedor4.Draw(lightingShader);
 		Ride.Draw(lightingShader);
 		Hithat.Draw(lightingShader);
 		Banquillo.Draw(lightingShader);
